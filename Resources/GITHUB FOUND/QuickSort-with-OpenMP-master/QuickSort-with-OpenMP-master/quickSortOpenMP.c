@@ -1,4 +1,4 @@
-/* C implementation QuickSort */
+	/* C implementation QuickSort */
 #include<stdio.h>
 #include<omp.h>
 #include<math.h>
@@ -97,11 +97,11 @@ int main()
 
     }
 	int n = sizeof(arr)/sizeof(arr[0]);
+	printArray(arr,ARRAY_MAX_SIZE);
 
+	int pi = partition(arr, 0, n-1);
 
-		//int pi = partition(arr, 0, n-1);
-
-/*#pragma omp parallel sections
+	#pragma omp parallel sections
 {
 
 		#pragma omp section
@@ -118,7 +118,7 @@ int main()
 		}
 
 
-}*/
+}
 omp_set_num_threads(8);
 start_time = omp_get_wtime();
 #pragma omp parallel
