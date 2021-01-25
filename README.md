@@ -12,6 +12,6 @@ Deliverables:
   * [Relatório + Apresentação] ;
 
 
-[Inputs]: https://github.com/chico2911/parallelComputing2021/tree/main/Inputs
-[Code]: https://github.com/chico2911/parallelComputing2021/tree/main/codigo
-[Relatório + Apresentação]: https://github.com/chico2911/parallelComputing2021/tree/main/relatorio
+[Inputs]: https://github.com/chico2911/parallelComputing2021/tree/main/Deliverable/Inputs
+[Code]: https://github.com/chico2911/parallelComputing2021/tree/main/Deliverable/Código
+[Relatório + Apresentação]: https://github.com/chico2911/parallelComputing2021/tree/main/Deliverable/Relatório%20%2B%20Apresentação
